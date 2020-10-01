@@ -38,27 +38,6 @@ while True:
 				else:
 					break
 			
-		# ind=[]
-		# count=0
-		# if inp in word:
-		# 	# ind=[i for i in range(len(word)) if word[i]==inp[0] if word[i+1]==inp[1]]
-		# 	for i in range(len(word)):
-		# 		for j in range(len(inp)):
-		# 			if word[i]==inp[j]:
-		# 				if count==0:
-		# 					ind.append(i)
-		# 				i+=1
-		# 				count+=1
-		# 			else:
-		# 				break
-		# 		if count!=len(inp):
-		# 			ind.pop()
-		# 		if count!=0:
-		# 			count=0
-
-		# 	if indx==[]:
-		# 		indx=[name.index(inp)]
-			
 			for j in range(len(indx)):
 				for i in range(len(inp)):
 					result_lst[indx[j]]=inp[i]+' '

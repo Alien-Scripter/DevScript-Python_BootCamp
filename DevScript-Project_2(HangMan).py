@@ -6,7 +6,7 @@ while True:
 	inp_lst=[]
 	result_lst=[]
 	name=random.choice(incl.names).upper()
-	# print(name)
+	# print(name)			# Comment out to leak the result.
 	[result_lst.append('__ ') for i in range(len(name))]
 	result_str=str().join(result_lst)
 
